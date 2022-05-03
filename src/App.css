@@ -1,5 +1,14 @@
+:root{
+  --logo-height: 100px;
+  --header-heigth: 100px;
+  --menu-height: 100px;
+  --aside-width: 225px;
+  --footer-height: 40px;
+}
+
 .App {
   text-align: center;
+  background-image: url("./components/imgs/wallpaper1.jpg");
 }
 
 .App-logo {
@@ -36,3 +45,55 @@
     transform: rotate(360deg);
   }
 }
+
+.App h1.Bem{
+  color: whitesmoke;
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  
+
+  background-color: red;
+  padding: 0;
+  border-radius: 19px;
+  position: relative;
+ 
+}
+
+.App-routa{
+  color: red;
+
+  
+
+}
+div.routa{
+
+ padding: 10px;
+ background-image: url("./components/imgs/wallpaper1.jpg");
+}
+
+div.routa button {
+    margin: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+   
+
+}
+button:hover{
+  background-color: #04a885; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+footer.footer{
+  grid-area:  footer;
+}
+

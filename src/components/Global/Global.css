@@ -1,0 +1,31 @@
+@media only screen and (max-device-width: 900px) {
+     .Global { width:600px; } 
+    }
+
+@media only screen and (max-device-width: 700px) {
+     .Global { width:400px; } 
+        }
+
+ 
+ footer.Global {
+    
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0px 25px;
+        background-color: black;
+        color: cadetblue;
+        box-shadow: var(--shadow);
+        position: relative;
+        margin: 0px;
+    
+ } 
+ @media only screen and (max-device-width: 900px) { 
+ div.Global { width:600px; } 
+}  
+
+@media only screen and (max-device-width: 700px) { 
+       div.Global {width: 600px;
+              height: 100px;
+              margin: 0 auto; } 
+      }  

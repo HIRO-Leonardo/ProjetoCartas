@@ -1,0 +1,51 @@
+
+table td {
+    color: rgb(56, 0, 88);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    
+}
+
+aside{
+    background-image: url('../components/imgs/wallpaper.jpg');
+    width: 100%;
+}
+
+th, td {
+    padding: 0px;
+    text-align: center;
+}
+div h1 {
+    color: azure;
+    background-color: black;
+}
+div {
+    background-color: black;
+}
+
+div aside div p {
+    background-image: url('../components/imgs/wallpaper1.jpg');
+    color: blue;
+    font-size: 20px;
+
+}
+
+
+div.container{
+    overflow-x: auto;
+    background-image: url('../components/imgs/wallpaper.jpg');
+    width: 100%;
+    
+}
+
+table img{
+    width: 100%;
+}
+
+
+
+           
+
+
+

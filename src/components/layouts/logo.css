@@ -1,0 +1,24 @@
+aside.logo {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-color: black;
+}
+
+aside.logo img {
+    padding: 0px 15px;
+    width: 40%;
+   
+    background-size: 80%;
+
+}
+
+@media only screen and (max-device-width: 900px) {
+    .aside.logo img { width:600px; } 
+   }
+
+@media only screen and (max-device-width: 700px) {
+    .aside.logo img { width:400px; } 
+       }
